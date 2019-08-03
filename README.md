@@ -52,3 +52,21 @@ Even if the role is not up-to-date (last commit is from 2017). So, I did this li
       become: true
       command: update-ca-certificates
 ```
+
+## Running the tests
+This role uses Molecule and ServerSpec for testing. To use it:
+
+```yaml
+pip install molecule
+gem install serverspec
+molecule test
+```
+
+You can also run selective commands:
+
+```yaml
+molecule idempotence
+molecule verify
+```
+
+
