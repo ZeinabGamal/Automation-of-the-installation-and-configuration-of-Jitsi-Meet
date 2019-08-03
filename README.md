@@ -1,6 +1,6 @@
 # Automation of the installation and configuration of Jitsi-Meet
 
-Ansible is used ot automate the insta;;ation process.
+Ansible is used ot automate the installation process.
 
 If you don't have SSL keys for the domain yet, consider using the excellent thefinn93.letsencrypt Ansible role to obtain (free!) SSL certs from LetsEncrypt.
 
