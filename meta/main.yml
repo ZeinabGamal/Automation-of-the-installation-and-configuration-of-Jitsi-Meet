@@ -1,0 +1,16 @@
+---
+galaxy_info:
+  author:
+    - zeinab (@ageis)
+    - mohamed (@conorsch)
+  description: Installs Jitsi Meet videoconferencing software
+  company: 
+  license: MIT
+  min_ansible_version: 1.9.4
+  platforms:
+    - name: Debian
+      versions:
+      - jessie
+  categories:
+    - system
+dependencies: []
