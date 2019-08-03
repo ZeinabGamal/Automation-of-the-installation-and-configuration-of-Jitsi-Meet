@@ -1,4 +1,4 @@
-# Automation of the-installation and configuration of Jitsi-Meet
+# Automation of the installation and configuration of Jitsi-Meet
 
 Ansible is used ot automate the insta;;ation process.
 
